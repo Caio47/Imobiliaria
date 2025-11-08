@@ -39,7 +39,6 @@ listaImoveis.forEach((imovel) => {
     const divFoto = document.createElement("div")
     divFoto.classList.add("foto");
     cardImovel.appendChild(divFoto); //Adiciona a foto no card
-
     const img = document.createElement ("img");
     img.setAttribute("src",imovel.fotos[0]);
     divFoto.appendChild(img);
